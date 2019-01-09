@@ -1,0 +1,62 @@
+/*----------------------Header---------------------*/
+
+p,
+a {
+    font-family: Helvetica;
+}
+
+/*----------------------BODY-----------------------*/
+
+.background {
+    background-color: rgb(240, 248, 249)
+}
+
+/*-------------------PAGE HEADER-------------------*/
+
+.page-header {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    max-width: 100%;
+    text-decoration: none;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    background-color: black;
+    padding-right: 30px;
+}
+
+nav ul li p {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header-list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.searchbalk{
+    
+}
+
+.logo{
+    max-width: 150px;
+    height: 100%;
+    display: inline-block;
+}
+/*---------------------CLEARFIX---------------------*/
+.clearfix {
+  overflow: auto;
+}
