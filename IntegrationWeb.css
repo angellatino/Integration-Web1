@@ -102,12 +102,29 @@ body {
 .navigatie li {
     display: inline-block;
     background: none;
+    float: right;
+    
+}
+
+.navigatie ul li: first-child{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.navigatie ul li: last-child{
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+}
+
+limidden {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .navigatie li a {
     color: white;
     display: block;
-    padding: 1em 0.5em 1em 0.5em;
+    padding: 0em 1.5em 0em 1.5em;
     line-height: 1;
     text-decoration: none;
     height: 100%;
