@@ -124,24 +124,15 @@ header a {
     font-size: 1.5em;
 }
 
-.navigatie li:hover,
-.portfolio-nav li:hover {
-    background: none;
+.navigatie li:hover{
+    background: white;
 }
 
-.navigatie li > a:hover,
-.portfolio-nav li > a:hover {
+.navigatie li > a:hover{
     color: rgb(38, 129, 152);
     font-weight: 500;
     border-bottom: 3px rgb(38, 129, 152);
     background: none;
-}
-
-.navigatie .actief,
-.portfolio-nav .actief {
-    color: rgb(38, 129, 152);
-    font-weight: 700;
-    border-bottom: 3px solid rgb(38, 129, 152);
 }
 
 header {
@@ -172,7 +163,111 @@ header nav {
     padding-top: 2.5%;
 }
 
+/*------------------------MAIN-------------------------*/
+
+.firstimage {
+    display: inline-block;
+    width: 90%;
+}
+
+.pijllinks {
+    display: inline-block;
+    width: 1%;
+    height: 100%;
+    text-align: center;
+    padding: 17.5% 2% 17.5% 1.5%;
+}
+
+.pijlrechts {
+    display: inline-block;
+    width: 1%;
+    height: 100%;
+    text-align: center;
+    padding: 17.5% 1.5% 17.5% 2%;
+    float: right;
+}
+
+.eerstepijl {
+    float: left;
+    padding: 2% 4% 2% 42.5%;
+    max-width: 1%;
+}
+
+.tweedepijl {
+    float: right;
+    padding: 2% 43% 2% 4%;
+    max-width: 1%;
+}
+
+.middenbolletjes {
+    float: left;
+    padding: 2% 0 2% 0;
+}
+
+.driekollommen {
+    display: inline-block;
+    width: 100%;
+    padding: 0 4% 2% 4.25%;
+}
+
+.doorklikpagina1 {
+    display: inline-block;
+    float: left;
+    max-width: 29%;
+    background-color: white;
+    height: 1000px;
+}
+
+.doorklikpagina2 {
+    display: inline-block;
+    float: left;
+    max-width: 29%;
+    margin-left: 2%;
+    background-color: white;
+    height: 1000px;
+}
+
+.doorklikpagina3 {
+    display: inline-block;
+    float: left;
+    max-width: 29%;
+    margin-left: 2%;
+    background-color: white;
+    height: 1000px;
+}
+
+.titel3kaders {
+    text-align: center;
+    color:  rgb(38,129,152);
+}
+
+
+.img1 {
+    width: 86%;
+    padding: 0 7% 5% 7%;
+}
+
+.tekst1 {
+    width: 86%;
+    padding: 0 7% 5% 7%;
+    color:  rgb(38,129,152);
+}
+
+.leesmeer{
+    width: 86%;
+    padding: 0 7% 5% 7%;
+    color:  rgb(4,80,96);
+    text-decoration: underline;
+}
+
+
+
+
+
+/*----------------------FOOTER--------------------------*/
+
 footer div {
+    display: inline-block;
     width: 100%;
     height 5%;
     background-color: rgb(38, 129, 152);
@@ -183,3 +278,4 @@ footer div p {
     padding: 2% 0 2% 4%;
     font-size: 1em; 
 }
+
