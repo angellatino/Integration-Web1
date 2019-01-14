@@ -1,0 +1,283 @@
+/*----------------------Header---------------------*/
+
+/*p,
+a {
+    font-family: Helvetica;
+}
+
+/*----------------------BODY-----------------------*/
+
+/*.background {
+    background-color: rgb(240, 248, 249)
+}
+
+/*-------------------PAGE HEADER-------------------*/
+
+/*.page-header {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    max-width: 100%;
+    text-decoration: none;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    background-color: black;
+    padding-right: 30px;
+}
+
+nav ul li p {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header-list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.searchbalk{
+    
+}
+
+.logo{
+    max-width: 150px;
+    height: 100%;
+    display: inline-block;
+}
+/*---------------------CLEARFIX---------------------*/
+
+/*.clearfix {
+  overflow: auto;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font: 100%/1.3 Raleway, Arial, Sans-serif;
+    background: white;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*-----------logo---------*/
+
+/*----------Header logo + navigatie---------*/
+
+*p,
+a {
+    font-family: Helvetica;
+}
+
+
+.logo {
+    float: left;
+    padding: 0.5%;
+    width: 8%;
+}
+
+.navigatie {
+    float: right;
+}
+
+.navigatie li {
+    display: inline-block;
+    background: none;
+    float: right;   
+}
+
+.navigatie li a {
+    color: white;
+    display: block;
+    padding: 0em 1.5em 0em 1.5em;
+    line-height: 1;
+    text-decoration: none;
+    height: 100%;
+}
+
+header a {
+    font-size: 1.5em;
+}
+
+.navigatie li:hover{
+    background: white;
+}
+
+.navigatie li > a:hover{
+    color: rgb(38, 129, 152);
+    font-weight: 500;
+    border-bottom: 3px rgb(38, 129, 152);
+    background: none;
+}
+
+header {
+    display: i inline-block;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+body {
+    background-color: rgb(196,215,219);
+    margin: 8px 0 8px 0px;
+}
+
+header ul {
+    background-color: rgb(38,129,152);
+    margin: 1% 0% 1% 0%;
+}
+
+header nav {
+    width: 90%;
+    padding-top: 2.5%;
+}
+
+/*------------------------MAIN-------------------------*/
+
+.firstimage {
+    display: inline-block;
+    width: 90%;
+}
+
+.pijllinks {
+    display: inline-block;
+    width: 1%;
+    height: 100%;
+    text-align: center;
+    padding: 17.5% 2% 17.5% 1.5%;
+}
+
+.pijlrechts {
+    display: inline-block;
+    width: 1%;
+    height: 100%;
+    text-align: center;
+    padding: 17.5% 1.5% 17.5% 2%;
+    float: right;
+}
+
+.eerstepijl {
+    float: left;
+    padding: 2% 4% 2% 42.5%;
+    max-width: 1%;
+}
+
+.tweedepijl {
+    float: right;
+    padding: 2% 43% 2% 4%;
+    max-width: 1%;
+}
+
+.middenbolletjes {
+    float: left;
+    padding: 2% 0 2% 0;
+}
+
+.driekollommen {
+    display: inline-block;
+    width: 100%;
+    padding: 0 4% 2% 4.25%;
+}
+
+.doorklikpagina1 {
+    display: inline-block;
+    float: left;
+    max-width: 29%;
+    background-color: white;
+    height: 1000px;
+}
+
+.doorklikpagina2 {
+    display: inline-block;
+    float: left;
+    max-width: 29%;
+    margin-left: 2%;
+    background-color: white;
+    height: 1000px;
+}
+
+.doorklikpagina3 {
+    display: inline-block;
+    float: left;
+    max-width: 29%;
+    margin-left: 2%;
+    background-color: white;
+    height: 1000px;
+}
+
+.titel3kaders {
+    text-align: center;
+    color:  rgb(38,129,152);
+}
+
+
+.img1 {
+    width: 86%;
+    padding: 0 7% 5% 7%;
+}
+
+.tekst1 {
+    width: 86%;
+    padding: 0 7% 5% 7%;
+    color:  rgb(38,129,152);
+}
+
+.leesmeer{
+    width: 86%;
+    padding: 0 7% 5% 7%;
+    color:  rgb(4,80,96);
+    text-decoration: underline;
+}
+
+
+
+
+
+/*----------------------FOOTER--------------------------*/
+
+footer div {
+    display: inline-block;
+    width: 100%;
+    height 5%;
+    background-color: rgb(38, 129, 152);
+}
+
+footer div p {
+    color: white;
+    padding: 2% 0 2% 4%;
+    font-size: 1em; 
+}
+
+/*---------------------EINDE----------------------------*/
+
