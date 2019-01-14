@@ -1,0 +1,126 @@
+h3 {
+    color: rgb(38,129,152);
+}
+
+firstsection {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.bovenblok {display: inline-block;
+    width: 91.4%;
+    height: 40%;
+    background-color: white;
+    border-color: rgb(38,129,152);
+    margin-left: 4.1%
+}
+
+.bloktekst {
+    color: rgb(38,129,152);
+    padding: 0 2% 0 2%;
+}
+
+.Logoinblok {
+    float: left;
+    padding: 2% 0 0 2%;   
+}
+
+.Reviews {
+    margin-left: 90px;
+}
+
+.vierkolommen {
+    display: inline-block;
+    width: 100%;
+    padding: 0 4% 2% 4.25%;
+}
+
+.review1 {
+    display: inline-block;
+    float: left;
+    max-width: 22%;
+    background-color: white;
+    height: 610px;
+}
+
+.review2 {
+    display: inline-block;
+    float: left;
+    max-width: 22%;
+    background-color: white;
+    height: 610px;
+    margin-left: 1.1%;
+}
+
+.review3 {
+    display: inline-block;
+    float: left;
+    max-width: 22%;
+    background-color: white;
+    height: 610px;
+    margin-left: 1.1%;
+}
+
+.review4 {
+    display: inline-block;
+    float: left;
+    max-width: 22%;
+    background-color: white;
+    height: 610px;
+    margin-left: 1.1%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.navigatie li a {
+    color: white;
+    display: block;
+    padding: 0em 1.4em 0em 1.4em;
+    line-height: 1;
+    text-decoration: none;
+    height: 100%;
+}
+
+.img4 {
+    float: left;
+    width: 30%;
+    padding: 7% 7% 5% 7%;
+}
+
+.img5 {
+    float: left;
+    width: 30%;
+    padding: 7% 7% 5% 7%;
+}
+
+.img6 {
+    float: left;
+    width: 30%;
+    padding: 7% 7% 5% 7%;
+}
+
+.img7 {
+    float: left;
+    width: 30%;
+    padding: 7% 7% 5% 7%;
+}
+
+.sterren {
+    float: left;
+    width: 40%;
+    padding-left: 5%;
+}
+
+pgegevens {
+    font
+}
+
+.tekst1 {
+    color: rgb(38,129,152);
+}
+
+.tekst2 {
+    color: rgb(38,129,152);
+}
